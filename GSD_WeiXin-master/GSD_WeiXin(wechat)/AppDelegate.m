@@ -35,6 +35,7 @@
 #import "SDHomeTableViewController.h"
 #import "fffffffViewController.h"
 #import "Mixpanel/Mixpanel.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -43,12 +44,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [SDAppFrameTabBarController new];
+//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    self.window.rootViewController = [SDAppFrameTabBarController new];
 //    self.window.rootViewController = [fffffffViewController new];
 
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
     
 //    [self setupNavBar];
     

@@ -90,6 +90,17 @@
 		48F337D41C73205C0049144A /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F337D31C73205C0049144A /* TTTAttributedLabel.m */; };
 		48F337D81C7324250049144A /* SDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F337D71C7324250049144A /* SDWebViewController.m */; };
 		805B81EA1ED12B1A00CCF461 /* fffffffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805B81E91ED12B1A00CCF461 /* fffffffViewController.m */; };
+		9555E5991ED16BE40019881E /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9555E5841ED16BE40019881E /* CollectionViewController.m */; };
+		9555E59A1ED16BE40019881E /* JDMTACollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9555E5861ED16BE40019881E /* JDMTACollectionViewCell.m */; };
+		9555E59B1ED16BE40019881E /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9555E5881ED16BE40019881E /* MenuViewController.m */; };
+		9555E59C1ED16BE40019881E /* MTACLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9555E58A1ED16BE40019881E /* MTACLTableViewController.m */; };
+		9555E59D1ED16BE40019881E /* MTACRCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9555E58C1ED16BE40019881E /* MTACRCollectionViewController.m */; };
+		9555E59E1ED16BE40019881E /* MTATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9555E58E1ED16BE40019881E /* MTATableViewCell.m */; };
+		9555E59F1ED16BE40019881E /* MTATestChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9555E5901ED16BE40019881E /* MTATestChildViewController.m */; };
+		9555E5A01ED16BE40019881E /* MTATestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9555E5921ED16BE40019881E /* MTATestTableView.m */; };
+		9555E5A11ED16BE40019881E /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9555E5941ED16BE40019881E /* NextViewController.m */; };
+		9555E5A21ED16BE40019881E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9555E5961ED16BE40019881E /* ViewController.m */; };
+		9555E5A51ED16D0B0019881E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9555E5A41ED16D0B0019881E /* Main.storyboard */; };
 		9953C5301CAF94FD00A260D0 /* SDTimeLineCellOperationMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9953C52F1CAF94FD00A260D0 /* SDTimeLineCellOperationMenu.m */; };
 		99D692C41C6B36C300DA97E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D692C31C6B36C300DA97E1 /* main.m */; };
 		99D692CF1C6B36C300DA97E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D692CE1C6B36C300DA97E1 /* Assets.xcassets */; };
@@ -304,6 +315,27 @@
 		4EC8005D7528A5E1A67B067E /* libPods-GSD_WeiXin(wechat).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSD_WeiXin(wechat).a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		805B81E81ED12B1A00CCF461 /* fffffffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fffffffViewController.h; sourceTree = "<group>"; };
 		805B81E91ED12B1A00CCF461 /* fffffffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fffffffViewController.m; sourceTree = "<group>"; };
+		9555E5831ED16BE40019881E /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		9555E5841ED16BE40019881E /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		9555E5851ED16BE40019881E /* JDMTACollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMTACollectionViewCell.h; sourceTree = "<group>"; };
+		9555E5861ED16BE40019881E /* JDMTACollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMTACollectionViewCell.m; sourceTree = "<group>"; };
+		9555E5871ED16BE40019881E /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		9555E5881ED16BE40019881E /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		9555E5891ED16BE40019881E /* MTACLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTACLTableViewController.h; sourceTree = "<group>"; };
+		9555E58A1ED16BE40019881E /* MTACLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTACLTableViewController.m; sourceTree = "<group>"; };
+		9555E58B1ED16BE40019881E /* MTACRCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTACRCollectionViewController.h; sourceTree = "<group>"; };
+		9555E58C1ED16BE40019881E /* MTACRCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTACRCollectionViewController.m; sourceTree = "<group>"; };
+		9555E58D1ED16BE40019881E /* MTATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTATableViewCell.h; sourceTree = "<group>"; };
+		9555E58E1ED16BE40019881E /* MTATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTATableViewCell.m; sourceTree = "<group>"; };
+		9555E58F1ED16BE40019881E /* MTATestChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTATestChildViewController.h; sourceTree = "<group>"; };
+		9555E5901ED16BE40019881E /* MTATestChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTATestChildViewController.m; sourceTree = "<group>"; };
+		9555E5911ED16BE40019881E /* MTATestTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTATestTableView.h; sourceTree = "<group>"; };
+		9555E5921ED16BE40019881E /* MTATestTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTATestTableView.m; sourceTree = "<group>"; };
+		9555E5931ED16BE40019881E /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		9555E5941ED16BE40019881E /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		9555E5951ED16BE40019881E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9555E5961ED16BE40019881E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9555E5A41ED16D0B0019881E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9953C52E1CAF94FD00A260D0 /* SDTimeLineCellOperationMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTimeLineCellOperationMenu.h; sourceTree = "<group>"; };
 		9953C52F1CAF94FD00A260D0 /* SDTimeLineCellOperationMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTimeLineCellOperationMenu.m; sourceTree = "<group>"; };
 		99D692BF1C6B36C300DA97E1 /* GSD_WeiXin(wechat).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GSD_WeiXin(wechat).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -793,8 +825,29 @@
 		99D692B61C6B36C300DA97E1 = {
 			isa = PBXGroup;
 			children = (
+				9555E5831ED16BE40019881E /* CollectionViewController.h */,
+				9555E5841ED16BE40019881E /* CollectionViewController.m */,
+				9555E5851ED16BE40019881E /* JDMTACollectionViewCell.h */,
+				9555E5861ED16BE40019881E /* JDMTACollectionViewCell.m */,
+				9555E5871ED16BE40019881E /* MenuViewController.h */,
+				9555E5881ED16BE40019881E /* MenuViewController.m */,
+				9555E5891ED16BE40019881E /* MTACLTableViewController.h */,
+				9555E58A1ED16BE40019881E /* MTACLTableViewController.m */,
+				9555E58B1ED16BE40019881E /* MTACRCollectionViewController.h */,
+				9555E58C1ED16BE40019881E /* MTACRCollectionViewController.m */,
+				9555E58D1ED16BE40019881E /* MTATableViewCell.h */,
+				9555E58E1ED16BE40019881E /* MTATableViewCell.m */,
+				9555E58F1ED16BE40019881E /* MTATestChildViewController.h */,
+				9555E5901ED16BE40019881E /* MTATestChildViewController.m */,
+				9555E5911ED16BE40019881E /* MTATestTableView.h */,
+				9555E5921ED16BE40019881E /* MTATestTableView.m */,
+				9555E5931ED16BE40019881E /* NextViewController.h */,
+				9555E5941ED16BE40019881E /* NextViewController.m */,
+				9555E5951ED16BE40019881E /* ViewController.h */,
+				9555E5961ED16BE40019881E /* ViewController.m */,
 				805B81E81ED12B1A00CCF461 /* fffffffViewController.h */,
 				805B81E91ED12B1A00CCF461 /* fffffffViewController.m */,
+				9555E5A41ED16D0B0019881E /* Main.storyboard */,
 				99D692C11C6B36C300DA97E1 /* GSD_WeiXin(wechat) */,
 				99D692DB1C6B36C400DA97E1 /* GSD_WeiXin(wechat)Tests */,
 				99D692E61C6B36C400DA97E1 /* GSD_WeiXin(wechat)UITests */,
@@ -1286,7 +1339,7 @@
 				TargetAttributes = {
 					99D692BE1C6B36C300DA97E1 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = JW46996525;
+						DevelopmentTeam = 355A2TSX74;
 					};
 					99D692D71C6B36C400DA97E1 = {
 						CreatedOnToolsVersion = 7.1;
@@ -1374,6 +1427,7 @@
 				99D6935F1C6B49A200DA97E1 /* 23.jpg in Resources */,
 				48EFF4931C7EB37B009252A5 /* pic3.jpg in Resources */,
 				48EFF4921C7EB37B009252A5 /* pic2.jpg in Resources */,
+				9555E5A51ED16D0B0019881E /* Main.storyboard in Resources */,
 				48EFF4981C7EB37B009252A5 /* pic8.jpg in Resources */,
 				99D693501C6B49A200DA97E1 /* 8.jpg in Resources */,
 				99D6934F1C6B49A200DA97E1 /* 7.jpg in Resources */,
@@ -1464,6 +1518,7 @@
 				48EFF4401C7EAFBF009252A5 /* SDBrowserImageView.m in Sources */,
 				48EFF4421C7EAFBF009252A5 /* SDWaitingView.m in Sources */,
 				99D693191C6B3A0600DA97E1 /* SDMeTableViewController.m in Sources */,
+				9555E5A01ED16BE40019881E /* MTATestTableView.m in Sources */,
 				99D6949C1C6F81E700DA97E1 /* SDChatModel.m in Sources */,
 				48EFF4C81C7F2A7F009252A5 /* NSMutableAttributedString+MLLabel.m in Sources */,
 				9953C5301CAF94FD00A260D0 /* SDTimeLineCellOperationMenu.m in Sources */,
@@ -1488,15 +1543,18 @@
 				48EFF4741C7EAFDF009252A5 /* UIImage+GIF.m in Sources */,
 				99D693721C6B4DDC00DA97E1 /* SDHomeTableViewCellModel.m in Sources */,
 				48EFF4CE1C7F2A7F009252A5 /* MLLabelLayoutManager.m in Sources */,
+				9555E59E1ED16BE40019881E /* MTATableViewCell.m in Sources */,
 				99D693921C6F765800DA97E1 /* SDChatTableViewController.m in Sources */,
 				48EFF46C1C7EAFDF009252A5 /* SDImageCache.m in Sources */,
 				48EFF46A1C7EAFDF009252A5 /* MKAnnotationView+WebCache.m in Sources */,
 				48EFF4CA1C7F2A7F009252A5 /* MLExpressionManager.m in Sources */,
 				48EFF4701C7EAFDF009252A5 /* SDWebImageDownloaderOperation.m in Sources */,
 				48F337D81C7324250049144A /* SDWebViewController.m in Sources */,
+				9555E5A21ED16BE40019881E /* ViewController.m in Sources */,
 				99D6937F1C6CA34B00DA97E1 /* SDShortVideoController.m in Sources */,
 				48EFF4731C7EAFDF009252A5 /* UIButton+WebCache.m in Sources */,
 				481457821C8AD8B4004CA225 /* SDBaseRefreshView.m in Sources */,
+				9555E59A1ED16BE40019881E /* JDMTACollectionViewCell.m in Sources */,
 				48D383581C885F7E00FCD677 /* SDContactModel.m in Sources */,
 				99D693041C6B384B00DA97E1 /* SDBaseNavigationController.m in Sources */,
 				48EFF46F1C7EAFDF009252A5 /* SDWebImageDownloader.m in Sources */,
@@ -1506,13 +1564,16 @@
 				99D6937B1C6C9BD700DA97E1 /* SDEyeAnimationView.m in Sources */,
 				99D693681C6B4A4A00DA97E1 /* SDHomeTableViewCell.m in Sources */,
 				99D693091C6B389B00DA97E1 /* SDBaseTableViewController.m in Sources */,
+				9555E59B1ED16BE40019881E /* MenuViewController.m in Sources */,
 				48EFF4761C7EAFDF009252A5 /* UIImage+WebP.m in Sources */,
 				48EFF4291C7EAE02009252A5 /* SDTimeLineCellModel.m in Sources */,
 				48EFF4CF1C7F2A7F009252A5 /* MLLabel.m in Sources */,
 				4840EF6A1D34B68D00BE7A12 /* LEETheme.m in Sources */,
+				9555E59D1ED16BE40019881E /* MTACRCollectionViewController.m in Sources */,
 				99D693011C6B381800DA97E1 /* SDAppFrameTabBarController.m in Sources */,
 				48EFF4721C7EAFDF009252A5 /* SDWebImagePrefetcher.m in Sources */,
 				48EFF4811C7EB0AF009252A5 /* SDTimeLineCell.m in Sources */,
+				9555E59F1ED16BE40019881E /* MTATestChildViewController.m in Sources */,
 				48EFF4751C7EAFDF009252A5 /* UIImage+MultiFormat.m in Sources */,
 				48EFF46D1C7EAFDF009252A5 /* SDWebImageCompat.m in Sources */,
 				805B81EA1ED12B1A00CCF461 /* fffffffViewController.m in Sources */,
@@ -1521,7 +1582,10 @@
 				99D693771C6B4F8E00DA97E1 /* SDAnalogDataGenerator.m in Sources */,
 				48F289E41C89A9E6005B7602 /* SDDiscoverTableViewCell.m in Sources */,
 				48EFF4451C7EAFBF009252A5 /* SDRefreshHeaderView.m in Sources */,
+				9555E59C1ED16BE40019881E /* MTACLTableViewController.m in Sources */,
+				9555E5A11ED16BE40019881E /* NextViewController.m in Sources */,
 				99D692C41C6B36C300DA97E1 /* main.m in Sources */,
+				9555E5991ED16BE40019881E /* CollectionViewController.m in Sources */,
 				48F337D01C7320380049144A /* MLEmojiLabel.m in Sources */,
 				99D6931C1C6B3A3300DA97E1 /* SDDiscoverTableViewController.m in Sources */,
 				482711CA1C83F2140014C526 /* SDContactsSearchResultController.m in Sources */,
@@ -1650,11 +1714,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = JW46996525;
+				DEVELOPMENT_TEAM = 355A2TSX74;
 				INFOPLIST_FILE = "GSD_WeiXin(wechat)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gsdios.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickStream.meridian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1666,11 +1730,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = JW46996525;
+				DEVELOPMENT_TEAM = 355A2TSX74;
 				INFOPLIST_FILE = "GSD_WeiXin(wechat)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gsdios.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickStream.meridian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

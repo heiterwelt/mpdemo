@@ -59,12 +59,14 @@ static const NSUInteger kBatchSize = 50;
     }
 
     NSMutableArray *queueCopyForFlushing;
+    
 
     Mixpanel *mixpanel = self.mixpanel;
     @synchronized (mixpanel) {
         queueCopyForFlushing = [queue mutableCopy];
     }
-    
+    NSLog(@"queueCopyForFlushing  :%@",queueCopyForFlushing);
+
     while (queueCopyForFlushing.count > 0) {
         NSUInteger batchSize = MIN(queueCopyForFlushing.count, kBatchSize);
         NSArray *batch = [queueCopyForFlushing subarrayWithRange:NSMakeRange(0, batchSize)];
