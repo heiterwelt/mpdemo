@@ -1,0 +1,4 @@
+platform:ios, '8.0'
+target 'GSD_WeiXin(wechat)' do
+pod 'Mixpanel'
+end
